@@ -87,7 +87,7 @@ Before running the script, ensure that you have:
 Run the script with the necessary arguments. For example:
 
 ```bash
-./setup-script.sh --username myuser --password mypassword --repo-url https://github.com/myuser/myrepo --folder-name myproject --github-pat mytoken --repo-owner myuser --repo-name myrepo
+./gh-runner.sh --username myuser --password mypassword --repo-url https://github.com/myuser/myrepo --folder-name myproject --github-pat mytoken --repo-owner myuser --repo-name myrepo
 ```
 
 ## Steps Performed by the Script
