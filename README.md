@@ -100,14 +100,6 @@ Usage: ./gh-runner.sh --username USERNAME --password PASSWORD --repo-url REPO_UR
 
 1. Keep your token confidential and treat it like a password.
 
-## Usage
-
-Run the script with the necessary arguments. For example:
-
-```bash
-./gh-runner.sh --username myuser --password mypassword --repo-url https://github.com/myuser/myrepo --folder-name myproject --github-pat mytoken --repo-owner myuser --repo-name myrepo
-```
-
 ## Steps Performed by the Script
 
 1. **Nginx Installation**: Installs the Nginx web server and configures it to start on boot.
