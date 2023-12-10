@@ -10,6 +10,24 @@ Before running the script, ensure that you have:
 - Access to a Ubuntu-based server
 - Sufficient permissions to execute scripts and install packages
 
+## Script Usage
+
+To run the script, use the following command format:
+
+```bash
+Usage: ./gh-runner.sh --username USERNAME --password PASSWORD --repo-url REPO_URL --folder-name FOLDER_NAME --github-pat GITHUB_PAT --repo-owner REPO_OWNER --repo-name REPO_NAME
+```
+
+### Arguments
+
+- `--username`: GitHub username
+- `--password`: User password
+- `--repo-url`: GitHub repository URL
+- `--folder-name`: Name of the folder for the project
+- `--github-pat`: GitHub Personal Access Token
+- `--repo-owner`: Owner of the GitHub repository
+- `--repo-name`: Name of the GitHub repository
+
 ## Variables
 
 1. **USERNAME**
